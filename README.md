@@ -13,3 +13,4 @@ k3-scatterplot.py has the same implementation as "k2cluster-scatterplot.py" exce
 
 kmulti-distance.py uses the K-means clustering algorithm to perform unsupervised learning on a given 2D dataset, where K ranges from 4 to 20. The script calculates the distance scores for each run, and displays them on a plot to help determine the optimal number of clusters for the given dataset.
 
+kmeans-testing.py implements K-means clustering algorithm on image data to group pixels with similar characteristics into clusters. The code reads in image data from a text file, reshapes it, and performs K-means clustering with different values of K (number of clusters). The resulting cluster centroids or means are displayed as images. This code is useful for visualizing how K-means clustering partitions an image into different segments based on pixel intensity or color.
