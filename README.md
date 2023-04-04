@@ -4,3 +4,5 @@ Python implementation of Kmeans clustering for unsupervised learning. Features r
 2D_data.txt is an X and Y value data set used for unclustered and clustered K data plots.
 
 testX.txt, testY.txt, trainX.txt, and trainY.txt are data sets for Kmeans clustering testing.
+
+unclustered-dataplot.py is a scatterplot representation of "2D_data.txt" without K clusters. Cam be modified to represent any data set with X and Y value columns.
