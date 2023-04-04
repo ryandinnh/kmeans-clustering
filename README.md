@@ -6,3 +6,5 @@ Python implementation of Kmeans clustering for unsupervised learning. Features r
 testX.txt, testY.txt, trainX.txt, and trainY.txt are data sets for Kmeans clustering testing.
 
 unclustered-dataplot.py is a scatterplot representation of "2D_data.txt" without K clusters. Cam be modified to represent any data set with X and Y value columns.
+
+k2cluster-scatterplot.py implements Kmeans clustering with K=2 on 2D data using the NumPy and Matplotlib libraries. It contains two functions, "initialize_centers" for randomly initializing the cluster centers and "kmeans" for performing the clustering. The resulting clusters are plotted as a scatterplot using different colors to distinguish between the two clusters.
